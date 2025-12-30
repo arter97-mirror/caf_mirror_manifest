@@ -1961,6 +1961,8 @@
   <project name="platform/vendor/qcom-opensource/twowheeler/services"/>
   <project name="platform/vendor/qcom-opensource/usb"/>
   <project name="platform/vendor/qcom-opensource/vibrator"/>
+  <project name="platform/vendor/qcom-opensource/video-commonsys"/>
+  <project name="platform/vendor/qcom-opensource/video-commonsys-intf"/>
   <project name="platform/vendor/qcom-opensource/wfd-commonsys"/>
   <project name="platform/vendor/qcom-opensource/wigig"/>
   <project name="platform/vendor/qcom-opensource/wlan/apps"/>
