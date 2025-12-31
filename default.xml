@@ -59,6 +59,7 @@
   <project name="device/qcom/qssi_64"/>
   <project name="device/qcom/qssi_au"/>
   <project name="device/qcom/qssi_au_64"/>
+  <project name="device/qcom/qssi_au_cf"/>
   <project name="device/qcom/qssi_auto"/>
   <project name="device/qcom/qssi_au_vcu"/>
   <project name="device/qcom/qssi_lite"/>
@@ -178,6 +179,7 @@
   <project name="platform/external/arm-optimized-routines"/>
   <project name="platform/external/arm-trusted-firmware"/>
   <project name="platform/external/auto"/>
+  <project name="platform/external/automotive-design-compose-protos"/>
   <project name="platform/external/autotest"/>
   <project name="platform/external/avahi"/>
   <project name="platform/external/avb"/>
@@ -210,6 +212,7 @@
   <project name="platform/external/brotli"/>
   <project name="platform/external/bsdiff"/>
   <project name="platform/external/bzip2"/>
+  <project name="platform/external/cairo"/>
   <project name="platform/external/caliper"/>
   <project name="platform/external/can-utils"/>
   <project name="platform/external/capicxx-core-runtime"/>
@@ -224,10 +227,13 @@
   <project name="platform/external/chromium-libpac"/>
   <project name="platform/external/chromiumos-config"/>
   <project name="platform/external/chromium-trace"/>
+  <project name="platform/external/chromium-web-tests"/>
   <project name="platform/external/chromium-webview"/>
   <project name="platform/external/clang"/>
   <project name="platform/external/cldr"/>
   <project name="platform/external/clpeak"/>
+  <project name="platform/external/clspv"/>
+  <project name="platform/external/clvk"/>
   <project name="platform/external/cmockery"/>
   <project name="platform/external/cn-cbor"/>
   <project name="platform/external/compiler-rt"/>
@@ -282,6 +288,7 @@
   <project name="platform/external/emboss"/>
   <project name="platform/external/emma"/>
   <project name="platform/external/epid-sdk"/>
+  <project name="platform/external/epson-inkjet-printer-escpr"/>
   <project name="platform/external/erofs-utils"/>
   <project name="platform/external/error_prone"/>
   <project name="platform/external/escapevelocity"/>
@@ -345,6 +352,7 @@
   <project name="platform/external/google-fonts/source-sans-pro"/>
   <project name="platform/external/google-fonts/zilla-slab"/>
   <project name="platform/external/google-fruit"/>
+  <project name="platform/external/google-highway"/>
   <project name="platform/external/google-java-format"/>
   <project name="platform/external/google-smali"/>
   <project name="platform/external/google-styleguide"/>
@@ -361,10 +369,12 @@
   <project name="platform/external/guava"/>
   <project name="platform/external/guice"/>
   <project name="platform/external/gwp_asan"/>
+  <project name="platform/external/hafnium"/>
   <project name="platform/external/hamcrest"/>
   <project name="platform/external/harfbuzz_ng"/>
   <project name="platform/external/honggfuzz"/>
   <project name="platform/external/horologist"/>
+  <project name="platform/external/hplip"/>
   <project name="platform/external/hyphenation-patterns"/>
   <project name="platform/external/iamf_tools"/>
   <project name="platform/external/icing"/>
@@ -374,6 +384,7 @@
   <project name="platform/external/ImageMagick"/>
   <project name="platform/external/ims"/>
   <project name="platform/external/intel-media-driver"/>
+  <project name="platform/external/intel-pmt-metadata"/>
   <project name="platform/external/iperf3"/>
   <project name="platform/external/iproute2"/>
   <project name="platform/external/ipsec-tools"/>
@@ -414,6 +425,7 @@
   <project name="platform/external/jsr330"/>
   <project name="platform/external/junit"/>
   <project name="platform/external/junit-params"/>
+  <project name="platform/external/jxmpp"/>
   <project name="platform/external/kernel-headers"/>
   <project name="platform/external/kmod"/>
   <project name="platform/external/kotlinc"/>
@@ -435,6 +447,7 @@
   <project name="platform/external/libbackup"/>
   <project name="platform/external/libbpf"/>
   <project name="platform/external/libbrillo"/>
+  <project name="platform/external/libcamera"/>
   <project name="platform/external/libcap"/>
   <project name="platform/external/libcap-ng"/>
   <project name="platform/external/libchrome"/>
@@ -444,6 +457,7 @@
   <project name="platform/external/libconstrainedcrypto"/>
   <project name="platform/external/libcppbor"/>
   <project name="platform/external/libcups"/>
+  <project name="platform/external/libcupsfilters"/>
   <project name="platform/external/libcxx"/>
   <project name="platform/external/libcxxabi"/>
   <project name="platform/external/libdaemon"/>
@@ -464,6 +478,7 @@
   <project name="platform/external/libhevc"/>
   <project name="platform/external/libiio"/>
   <project name="platform/external/libjpeg-turbo"/>
+  <project name="platform/external/libjxl"/>
   <project name="platform/external/libkmsxx"/>
   <project name="platform/external/liblc3"/>
   <project name="platform/external/libldac"/>
@@ -486,12 +501,14 @@
   <project name="platform/external/libpciaccess"/>
   <project name="platform/external/libphonenumber"/>
   <project name="platform/external/libpng"/>
+  <project name="platform/external/libppd"/>
   <project name="platform/external/libprotobuf-mutator"/>
   <project name="platform/external/libselinux"/>
   <project name="platform/external/libsrtp2"/>
   <project name="platform/external/libtextclassifier"/>
   <project name="platform/external/libtraceevent"/>
   <project name="platform/external/libtracefs"/>
+  <project name="platform/external/libudev-zero"/>
   <project name="platform/external/libultrahdr"/>
   <project name="platform/external/libunwind"/>
   <project name="platform/external/libunwind_llvm"/>
@@ -512,11 +529,13 @@
   <project name="platform/external/libxcam"/>
   <project name="platform/external/libxkbcommon"/>
   <project name="platform/external/libxml2"/>
+  <project name="platform/external/libyaml"/>
   <project name="platform/external/libyuv"/>
   <project name="platform/external/licenseclassifier"/>
   <project name="platform/external/linux-firmware"/>
   <project name="platform/external/linux-kselftest"/>
   <project name="platform/external/lisa"/>
+  <project name="platform/external/Little-CMS"/>
   <project name="platform/external/littlemock"/>
   <project name="platform/external/lld"/>
   <project name="platform/external/llvm"/>
@@ -536,6 +555,7 @@
   <project name="platform/external/messageformat"/>
   <project name="platform/external/Microsoft-GSL"/>
   <project name="platform/external/mime-support"/>
+  <project name="platform/external/minidns"/>
   <project name="platform/external/minigbm"/>
   <project name="platform/external/minijail"/>
   <project name="platform/external/mksh"/>
@@ -590,6 +610,7 @@
   <project name="platform/external/OpenCL-CTS"/>
   <project name="platform/external/OpenCL-Headers"/>
   <project name="platform/external/OpenCL-ICD-Loader"/>
+  <project name="platform/external/opencl/llvm-project"/>
   <project name="platform/external/OpenCSD"/>
   <project name="platform/external/opencv"/>
   <project name="platform/external/opencv3"/>
@@ -598,6 +619,7 @@
   <project name="platform/external/openssh"/>
   <project name="platform/external/openthread"/>
   <project name="platform/external/openwrt-prebuilts"/>
+  <project name="platform/external/opus-experimental"/>
   <project name="platform/external/oss-fuzz"/>
   <project name="platform/external/ot-br-posix"/>
   <project name="platform/external/ow2-asm"/>
@@ -618,7 +640,9 @@
   <project name="platform/external/pffft"/>
   <project name="platform/external/piex"/>
   <project name="platform/external/pigweed"/>
+  <project name="platform/external/pixman"/>
   <project name="platform/external/ply"/>
+  <project name="platform/external/pogreb"/>
   <project name="platform/external/powertop"/>
   <project name="platform/external/ppp"/>
   <project name="platform/external/private-join-and-compute"/>
@@ -637,6 +661,7 @@
   <project name="platform/external/python/bumble"/>
   <project name="platform/external/python/cachetools"/>
   <project name="platform/external/python/cffi"/>
+  <project name="platform/external/python/cpplint"/>
   <project name="platform/external/python/cpython2"/>
   <project name="platform/external/python/cpython3"/>
   <project name="platform/external/python/cryptography"/>
@@ -673,12 +698,14 @@
   <project name="platform/external/python/packaging"/>
   <project name="platform/external/python/parse"/>
   <project name="platform/external/python/parse_type"/>
+  <project name="platform/external/python/pexpect"/>
   <project name="platform/external/python/Pillow"/>
   <project name="platform/external/python/pluggy"/>
   <project name="platform/external/python/ply"/>
   <project name="platform/external/python/portpicker"/>
   <project name="platform/external/python/protobuf"/>
   <project name="platform/external/python/proto-google-cloud-pubsub-v1"/>
+  <project name="platform/external/python/ptyprocess"/>
   <project name="platform/external/python/py"/>
   <project name="platform/external/python/pyasn1"/>
   <project name="platform/external/python/pyasn1-modules"/>
@@ -697,12 +724,15 @@
   <project name="platform/external/python/scipy"/>
   <project name="platform/external/python/setuptools"/>
   <project name="platform/external/python/six"/>
+  <project name="platform/external/python/snippet-uiautomator"/>
   <project name="platform/external/python/timeout-decorator"/>
   <project name="platform/external/python/typing"/>
   <project name="platform/external/python/typing_extensions"/>
   <project name="platform/external/python/uritemplates"/>
   <project name="platform/external/python/watchdog"/>
   <project name="platform/external/pytorch"/>
+  <project name="platform/external/qdl"/>
+  <project name="platform/external/qpdf"/>
   <project name="platform/external/r8"/>
   <project name="platform/external/rapidjson"/>
   <project name="platform/external/rappor"/>
@@ -716,6 +746,7 @@
   <project name="platform/external/robolectric-shadows"/>
   <project name="platform/external/roboto-flex-fonts"/>
   <project name="platform/external/roboto-fonts"/>
+  <project name="platform/external/roboto-mono"/>
   <project name="platform/external/rootdev"/>
   <project name="platform/external/rust/android-crates-io"/>
   <project name="platform/external/rust/autocxx"/>
@@ -1132,7 +1163,9 @@
   <project name="platform/external/rust/crates/zip"/>
   <project name="platform/external/rust/cros-libva"/>
   <project name="platform/external/rust/cxx"/>
+  <project name="platform/external/rust/ninja-to-soong"/>
   <project name="platform/external/rust/pica"/>
+  <project name="platform/external/rust/rutabaga_gfx"/>
   <project name="platform/external/ruy"/>
   <project name="platform/external/s2-geometry-library-java"/>
   <project name="platform/external/safe-iop"/>
@@ -1155,6 +1188,7 @@
   <project name="platform/external/skqp"/>
   <project name="platform/external/sl4a"/>
   <project name="platform/external/slf4j"/>
+  <project name="platform/external/smack"/>
   <project name="platform/external/smali"/>
   <project name="platform/external/snakeyaml"/>
   <project name="platform/external/snappy"/>
@@ -1162,7 +1196,9 @@
   <project name="platform/external/sonivox"/>
   <project name="platform/external/spdx-tools"/>
   <project name="platform/external/speex"/>
+  <project name="platform/external/SPIRV-Headers"/>
   <project name="platform/external/spirv-llvm"/>
+  <project name="platform/external/SPIRV-Tools"/>
   <project name="platform/external/sqlite"/>
   <project name="platform/external/squashfs-tools"/>
   <project name="platform/external/srtp"/>
@@ -1239,6 +1275,7 @@
   <project name="platform/external/xmlrpcpp"/>
   <project name="platform/external/xmlwriter"/>
   <project name="platform/external/xmp_toolkit"/>
+  <project name="platform/external/XMP-Toolkit-SDK"/>
   <project name="platform/external/XNNPACK"/>
   <project name="platform/external/xz-embedded"/>
   <project name="platform/external/xz-java"/>
@@ -1346,6 +1383,7 @@
   <project name="platform/hardware/st/secure_element"/>
   <project name="platform/hardware/st/secure_element2"/>
   <project name="platform/hardware/synaptics/wlan"/>
+  <project name="platform/hardware/telink/atv/refDesignRcu"/>
   <project name="platform/hardware/ti/am57x"/>
   <project name="platform/libcore"/>
   <project name="platform/libnativehelper"/>
@@ -1403,6 +1441,7 @@
   <project name="platform/packages/apps/CMFileManager"/>
   <project name="platform/packages/apps/Contacts"/>
   <project name="platform/packages/apps/ContactsCommon"/>
+  <project name="platform/packages/apps/ContactsPicker"/>
   <project name="platform/packages/apps/DeskClock"/>
   <project name="platform/packages/apps/DevCamera"/>
   <project name="platform/packages/apps/DeviceDiagnostics"/>
@@ -1412,6 +1451,7 @@
   <project name="platform/packages/apps/EmergencyInfo"/>
   <project name="platform/packages/apps/ExactCalculator"/>
   <project name="platform/packages/apps/Exchange"/>
+  <project name="platform/packages/apps/EyeDropper"/>
   <project name="platform/packages/apps/FMRadio"/>
   <project name="platform/packages/apps/Gallery"/>
   <project name="platform/packages/apps/Gallery2"/>
@@ -1517,6 +1557,7 @@
   <project name="platform/packages/modules/SdkExtensions"/>
   <project name="platform/packages/modules/SEPolicy"/>
   <project name="platform/packages/modules/StatsD"/>
+  <project name="platform/packages/modules/Telecom"/>
   <project name="platform/packages/modules/Telephony"/>
   <project name="platform/packages/modules/TestModule"/>
   <project name="platform/packages/modules/ThreadNetwork"/>
@@ -1545,12 +1586,14 @@
   <project name="platform/packages/services/AlternativeNetworkAccess"/>
   <project name="platform/packages/services/BuiltInPrintService"/>
   <project name="platform/packages/services/Car"/>
+  <project name="platform/packages/services/CrossDeviceSync"/>
   <project name="platform/packages/services/DeviceAsWebcam"/>
   <project name="platform/packages/services/DroidfoodAttestationFixer"/>
   <project name="platform/packages/services/Iwlan"/>
   <project name="platform/packages/services/Mms"/>
   <project name="platform/packages/services/Mtp"/>
   <project name="platform/packages/services/NetworkRecommendation"/>
+  <project name="platform/packages/services/QualifiedNetworksService"/>
   <project name="platform/packages/services/Rcs"/>
   <project name="platform/packages/services/Telecomm"/>
   <project name="platform/packages/services/Telephony"/>
@@ -1570,6 +1613,7 @@
   <project name="platform/prebuilts/bundletool"/>
   <project name="platform/prebuilts/checkcolor"/>
   <project name="platform/prebuilts/checkstyle"/>
+  <project name="platform/prebuilts/cipd"/>
   <project name="platform/prebuilts/clang/host/darwin-x86"/>
   <project name="platform/prebuilts/clang/host/linux-x86"/>
   <project name="platform/prebuilts/clang/linux-x86/host/3.6"/>
@@ -1600,6 +1644,7 @@
   <project name="platform/prebuilts/jdk/jdk11"/>
   <project name="platform/prebuilts/jdk/jdk17"/>
   <project name="platform/prebuilts/jdk/jdk21"/>
+  <project name="platform/prebuilts/jdk/jdk25"/>
   <project name="platform/prebuilts/jdk/jdk8"/>
   <project name="platform/prebuilts/jdk/jdk9"/>
   <project name="platform/prebuilts/ktlint"/>
@@ -1644,6 +1689,7 @@
   <project name="platform/prebuilts/runtime"/>
   <project name="platform/prebuilts/rust"/>
   <project name="platform/prebuilts/sdk"/>
+  <project name="platform/prebuilts/siso"/>
   <project name="platform/prebuilts/tools"/>
   <project name="platform/prebuilts/vndk/v27"/>
   <project name="platform/prebuilts/vndk/v28"/>
@@ -1691,6 +1737,7 @@
   <project name="platform/system/libprocinfo"/>
   <project name="platform/system/librustutils"/>
   <project name="platform/system/libsysprop"/>
+  <project name="platform/system/libueventd-rs"/>
   <project name="platform/system/libufdt"/>
   <project name="platform/system/liburingutils"/>
   <project name="platform/system/libvintf"/>
@@ -1779,9 +1826,11 @@
   <project name="platform/tools/ndkports"/>
   <project name="platform/tools/netsim"/>
   <project name="platform/tools/repohooks"/>
+  <project name="platform/tools/rootcanal"/>
   <project name="platform/tools/rr_prebuilt"/>
   <project name="platform/tools/security"/>
   <project name="platform/tools/test/connectivity"/>
+  <project name="platform/tools/test/desktop/mobly"/>
   <project name="platform/tools/test/graphicsbenchmark"/>
   <project name="platform/tools/test/mobly_extensions"/>
   <project name="platform/tools/test/mobly_snippets"/>
