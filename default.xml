@@ -1895,6 +1895,7 @@
   <project name="platform/vendor/qcom/ferrum"/>
   <project name="platform/vendor/qcom/gen4_gvm"/>
   <project name="platform/vendor/qcom/gen4_gvm_gy"/>
+  <project name="platform/vendor/qcom/gen4_gvm_sgt"/>
   <project name="platform/vendor/qcom/holi"/>
   <project name="platform/vendor/qcom/kalama"/>
   <project name="platform/vendor/qcom/kona"/>
