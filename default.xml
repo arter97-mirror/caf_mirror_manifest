@@ -38,6 +38,8 @@
   <project name="device/google/cuttlefish_prebuilts"/>
   <project name="device/google/cuttlefish_vmm"/>
   <project name="device/google/muskie"/>
+  <project name="device/google/sdv"/>
+  <project name="device/google/sdv_display_safety"/>
   <project name="device/google/taimen"/>
   <project name="device/google/trout"/>
   <project name="device/google/vrservices"/>
@@ -60,6 +62,8 @@
   <project name="device/qcom/qssi_au"/>
   <project name="device/qcom/qssi_au_64"/>
   <project name="device/qcom/qssi_au_cf"/>
+  <project name="device/qcom/qssi_au_sdv"/>
+  <project name="device/qcom/qssi_au_sdvivi"/>
   <project name="device/qcom/qssi_auto"/>
   <project name="device/qcom/qssi_au_vcu"/>
   <project name="device/qcom/qssi_lite"/>
@@ -90,6 +94,8 @@
   <project name="kernel/prebuilts/5.4/x86-64"/>
   <project name="kernel/prebuilts/6.12/arm64"/>
   <project name="kernel/prebuilts/6.12/x86-64"/>
+  <project name="kernel/prebuilts/6.18/arm64"/>
+  <project name="kernel/prebuilts/6.18/x86-64"/>
   <project name="kernel/prebuilts/6.1/arm64"/>
   <project name="kernel/prebuilts/6.1/x86-64"/>
   <project name="kernel/prebuilts/6.6/arm64"/>
@@ -106,6 +112,8 @@
   <project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64"/>
@@ -145,16 +153,19 @@
   <project name="platform/external/abseil-cpp"/>
   <project name="platform/external/accessibility-test-framework"/>
   <project name="platform/external/accompanist"/>
+  <project name="platform/external/acpica"/>
   <project name="platform/external/adeb"/>
   <project name="platform/external/adhd"/>
   <project name="platform/external/adt-infra"/>
   <project name="platform/external/AFLplusplus"/>
+  <project name="platform/external/android-browser-helper"/>
   <project name="platform/external/android-clat"/>
   <project name="platform/external/android-key-attestation"/>
   <project name="platform/external/android-nn-driver"/>
   <project name="platform/external/android_onboarding"/>
   <project name="platform/external/androidplot"/>
   <project name="platform/external/angle"/>
+  <project name="platform/external/animal-sniffer"/>
   <project name="platform/external/annotation-tools"/>
   <project name="platform/external/anonymous-counting-tokens"/>
   <project name="platform/external/ant-glob"/>
@@ -300,6 +311,7 @@
   <project name="platform/external/expat"/>
   <project name="platform/external/eyes-free"/>
   <project name="platform/external/f2fs-tools"/>
+  <project name="platform/external/failsafe"/>
   <project name="platform/external/fastrpc"/>
   <project name="platform/external/fbjni"/>
   <project name="platform/external/fdlibm"/>
@@ -397,12 +409,14 @@
   <project name="platform/external/jacoco"/>
   <project name="platform/external/jakarta.inject"/>
   <project name="platform/external/jarjar"/>
+  <project name="platform/external/java-diff-utils"/>
   <project name="platform/external/javaparser"/>
   <project name="platform/external/javapoet"/>
   <project name="platform/external/javasqlite"/>
   <project name="platform/external/javassist"/>
   <project name="platform/external/jazzer-api"/>
   <project name="platform/external/jcommander"/>
+  <project name="platform/external/jctools"/>
   <project name="platform/external/jdiff"/>
   <project name="platform/external/jemalloc"/>
   <project name="platform/external/jemalloc_new"/>
@@ -413,6 +427,7 @@
   <project name="platform/external/jipp"/>
   <project name="platform/external/jline"/>
   <project name="platform/external/jmdns"/>
+  <project name="platform/external/jmustache"/>
   <project name="platform/external/jsilver"/>
   <project name="platform/external/jsmn"/>
   <project name="platform/external/json-c"/>
@@ -427,6 +442,7 @@
   <project name="platform/external/junit-params"/>
   <project name="platform/external/jxmpp"/>
   <project name="platform/external/kernel-headers"/>
+  <project name="platform/external/keyattestation"/>
   <project name="platform/external/kmod"/>
   <project name="platform/external/kotlinc"/>
   <project name="platform/external/kotlin-compose-compiler"/>
@@ -441,12 +457,22 @@
   <project name="platform/external/ktfmt"/>
   <project name="platform/external/leakcanary2"/>
   <project name="platform/external/leveldb"/>
+  <project name="platform/external/lfi/disarm"/>
+  <project name="platform/external/lfi/fadec"/>
+  <project name="platform/external/lfi/lfi-bind"/>
+  <project name="platform/external/lfi/lfi-runtime"/>
+  <project name="platform/external/lfi/lfi-verifier"/>
+  <project name="platform/external/lfi/rlbox"/>
+  <project name="platform/external/lfi/rlbox-lfi"/>
   <project name="platform/external/libabigail"/>
   <project name="platform/external/libaom"/>
   <project name="platform/external/libavc"/>
   <project name="platform/external/libbackup"/>
   <project name="platform/external/libbpf"/>
   <project name="platform/external/libbrillo"/>
+  <project name="platform/external/libburnia/libburn"/>
+  <project name="platform/external/libburnia/libisoburn"/>
+  <project name="platform/external/libburnia/libisofs"/>
   <project name="platform/external/libcamera"/>
   <project name="platform/external/libcap"/>
   <project name="platform/external/libcap-ng"/>
@@ -484,6 +510,7 @@
   <project name="platform/external/libldac"/>
   <project name="platform/external/liblzf"/>
   <project name="platform/external/libmicrohttpd"/>
+  <project name="platform/external/libmnl"/>
   <project name="platform/external/libmojo"/>
   <project name="platform/external/libmonet"/>
   <project name="platform/external/libmpeg2"/>
@@ -619,6 +646,7 @@
   <project name="platform/external/openssh"/>
   <project name="platform/external/openthread"/>
   <project name="platform/external/openwrt-prebuilts"/>
+  <project name="platform/external/openxr-sdk"/>
   <project name="platform/external/opus-experimental"/>
   <project name="platform/external/oss-fuzz"/>
   <project name="platform/external/ot-br-posix"/>
@@ -632,6 +660,7 @@
   <project name="platform/external/pandora/mmi2grpc"/>
   <project name="platform/external/parameter-framework"/>
   <project name="platform/external/pciutils"/>
+  <project name="platform/external/pcollections"/>
   <project name="platform/external/pcre"/>
   <project name="platform/external/pdfium"/>
   <project name="platform/external/perf_data_converter"/>
@@ -669,6 +698,7 @@
   <project name="platform/external/python/dill"/>
   <project name="platform/external/python/enum"/>
   <project name="platform/external/python/enum34"/>
+  <project name="platform/external/python/fdt"/>
   <project name="platform/external/python/funcsigs"/>
   <project name="platform/external/python/future"/>
   <project name="platform/external/python/futures"/>
@@ -1255,6 +1285,7 @@
   <project name="platform/external/virglrenderer"/>
   <project name="platform/external/virtio-media"/>
   <project name="platform/external/vixl"/>
+  <project name="platform/external/vkoverhead"/>
   <project name="platform/external/vm_tools/p9"/>
   <project name="platform/external/vogar"/>
   <project name="platform/external/volley"/>
@@ -1267,6 +1298,7 @@
   <project name="platform/external/webp"/>
   <project name="platform/external/webrtc"/>
   <project name="platform/external/webview_support_interfaces"/>
+  <project name="platform/external/wireless-regdb"/>
   <project name="platform/external/wmediumd"/>
   <project name="platform/external/wpa_supplicant_8"/>
   <project name="platform/external/wuffs-mirror-release-c"/>
@@ -1378,6 +1410,7 @@
   <project name="platform/hardware/qcom/wlan"/>
   <project name="platform/hardware/ril"/>
   <project name="platform/hardware/samsung/nfc"/>
+  <project name="platform/hardware/sdv/interfaces"/>
   <project name="platform/hardware/stm"/>
   <project name="platform/hardware/st/nfc"/>
   <project name="platform/hardware/st/secure_element"/>
@@ -1433,6 +1466,7 @@
   <project name="platform/packages/apps/Car/SystemUI"/>
   <project name="platform/packages/apps/Car/SystemUpdater"/>
   <project name="platform/packages/apps/Car/Templates"/>
+  <project name="platform/packages/apps/Car/TemplatesPrebuilt"/>
   <project name="platform/packages/apps/Car/tests"/>
   <project name="platform/packages/apps/Car/UserManagement"/>
   <project name="platform/packages/apps/Car/VoiceControl"/>
@@ -1461,6 +1495,7 @@
   <project name="platform/packages/apps/Launcher2"/>
   <project name="platform/packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera"/>
+  <project name="platform/packages/apps/Login"/>
   <project name="platform/packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms"/>
@@ -1471,6 +1506,7 @@
   <project name="platform/packages/apps/OnDeviceAppPrediction"/>
   <project name="platform/packages/apps/OneTimeInitializer"/>
   <project name="platform/packages/apps/PackageInstaller"/>
+  <project name="platform/packages/apps/PersonalContext"/>
   <project name="platform/packages/apps/Phone"/>
   <project name="platform/packages/apps/PhoneCommon"/>
   <project name="platform/packages/apps/PrivateSpace"/>
@@ -1510,6 +1546,7 @@
   <project name="platform/packages/apps/TvSystemUI"/>
   <project name="platform/packages/apps/UnifiedEmail"/>
   <project name="platform/packages/apps/UniversalMediaPlayer"/>
+  <project name="platform/packages/apps/VirtualGamepad"/>
   <project name="platform/packages/apps/WallpaperPicker"/>
   <project name="platform/packages/apps/WallpaperPicker2"/>
   <project name="platform/packages/experimental"/>
@@ -1535,10 +1572,12 @@
   <project name="platform/packages/modules/DeviceLock"/>
   <project name="platform/packages/modules/DnsResolver"/>
   <project name="platform/packages/modules/ExtServices"/>
+  <project name="platform/packages/modules/GenericBootstrappingArchitecture"/>
   <project name="platform/packages/modules/GeoTZ"/>
   <project name="platform/packages/modules/Gki"/>
   <project name="platform/packages/modules/HealthFitness"/>
   <project name="platform/packages/modules/ImsMedia"/>
+  <project name="platform/packages/modules/ImsStack"/>
   <project name="platform/packages/modules/IntentResolver"/>
   <project name="platform/packages/modules/IPsec"/>
   <project name="platform/packages/modules/Media"/>
@@ -1548,6 +1587,7 @@
   <project name="platform/packages/modules/NetworkStack"/>
   <project name="platform/packages/modules/NeuralNetworks"/>
   <project name="platform/packages/modules/Nfc"/>
+  <project name="platform/packages/modules/NpuManager"/>
   <project name="platform/packages/modules/OnDevicePersonalization"/>
   <project name="platform/packages/modules/Permission"/>
   <project name="platform/packages/modules/Profiling"/>
@@ -1565,6 +1605,7 @@
   <project name="platform/packages/modules/Uwb"/>
   <project name="platform/packages/modules/Virtualization"/>
   <project name="platform/packages/modules/vndk"/>
+  <project name="platform/packages/modules/WebApp"/>
   <project name="platform/packages/modules/WebViewBootstrap"/>
   <project name="platform/packages/modules/Wifi"/>
   <project name="platform/packages/providers/ApplicationsProvider"/>
@@ -1588,6 +1629,7 @@
   <project name="platform/packages/services/Car"/>
   <project name="platform/packages/services/CrossDeviceSync"/>
   <project name="platform/packages/services/DeviceAsWebcam"/>
+  <project name="platform/packages/services/display_safety"/>
   <project name="platform/packages/services/DroidfoodAttestationFixer"/>
   <project name="platform/packages/services/Iwlan"/>
   <project name="platform/packages/services/Mms"/>
@@ -1688,6 +1730,9 @@
   <project name="platform/prebuilts/remoteexecution-client"/>
   <project name="platform/prebuilts/runtime"/>
   <project name="platform/prebuilts/rust"/>
+  <project name="platform/prebuilts/rust-toolchain/darwin"/>
+  <project name="platform/prebuilts/rust-toolchain/linux-musl-x86"/>
+  <project name="platform/prebuilts/rust-toolchain/linux-x86"/>
   <project name="platform/prebuilts/sdk"/>
   <project name="platform/prebuilts/siso"/>
   <project name="platform/prebuilts/tools"/>
@@ -1719,6 +1764,8 @@
   <project name="platform/system/dmesgd"/>
   <project name="platform/system/extras"/>
   <project name="platform/system/firewalld"/>
+  <project name="platform/system/fs/casefolding_remover"/>
+  <project name="platform/system/fs/fs_mgr"/>
   <project name="platform/system/gatekeeper"/>
   <project name="platform/system/gsid"/>
   <project name="platform/system/hardware/interfaces"/>
@@ -1728,6 +1775,7 @@
   <project name="platform/system/iot/attestation"/>
   <project name="platform/system/keymaster"/>
   <project name="platform/system/keymint"/>
+  <project name="platform/system/lfi"/>
   <project name="platform/system/libartpalette"/>
   <project name="platform/system/libbase"/>
   <project name="platform/system/libcppbor"/>
@@ -1736,6 +1784,7 @@
   <project name="platform/system/libhwbinder"/>
   <project name="platform/system/libprocinfo"/>
   <project name="platform/system/librustutils"/>
+  <project name="platform/system/libskuconfig"/>
   <project name="platform/system/libsysprop"/>
   <project name="platform/system/libueventd-rs"/>
   <project name="platform/system/libufdt"/>
@@ -1745,11 +1794,14 @@
   <project name="platform/system/linkerconfig"/>
   <project name="platform/system/logging"/>
   <project name="platform/system/media"/>
+  <project name="platform/system/memory/amemdiff"/>
+  <project name="platform/system/memory/guardian"/>
   <project name="platform/system/memory/libdmabufheap"/>
   <project name="platform/system/memory/libion"/>
   <project name="platform/system/memory/libmeminfo"/>
   <project name="platform/system/memory/libmemtrack"/>
   <project name="platform/system/memory/libmemunreachable"/>
+  <project name="platform/system/memory/libwrapfd"/>
   <project name="platform/system/memory/lmkd"/>
   <project name="platform/system/memory/mmd"/>
   <project name="platform/system/nativepower"/>
@@ -1763,6 +1815,22 @@
   <project name="platform/system/see/authmgr"/>
   <project name="platform/system/sepolicy"/>
   <project name="platform/system/server_configurable_flags"/>
+  <project name="platform/system/software_defined_vehicle/automotive_services"/>
+  <project name="platform/system/software_defined_vehicle/common"/>
+  <project name="platform/system/software_defined_vehicle/health_monitor"/>
+  <project name="platform/system/software_defined_vehicle/lifecycle_management"/>
+  <project name="platform/system/software_defined_vehicle/middleware"/>
+  <project name="platform/system/software_defined_vehicle/orchestration"/>
+  <project name="platform/system/software_defined_vehicle/platform"/>
+  <project name="platform/system/software_defined_vehicle/samples"/>
+  <project name="platform/system/software_defined_vehicle/sdv_gateway"/>
+  <project name="platform/system/software_defined_vehicle/service_bundles_registry"/>
+  <project name="platform/system/software_defined_vehicle/some_ip"/>
+  <project name="platform/system/software_defined_vehicle/telemetry"/>
+  <project name="platform/system/software_defined_vehicle/tools"/>
+  <project name="platform/system/software_defined_vehicle/update_manager"/>
+  <project name="platform/system/software_defined_vehicle/vpm"/>
+  <project name="platform/system/software_defined_vehicle/vsidl"/>
   <project name="platform/system/teeui"/>
   <project name="platform/system/testing/gtest_extras"/>
   <project name="platform/system/timezone"/>
@@ -1775,9 +1843,11 @@
   <project name="platform/system/ucontainer"/>
   <project name="platform/system/unwinding"/>
   <project name="platform/system/update_engine"/>
+  <project name="platform/system/usb"/>
   <project name="platform/system/usb_info_tools"/>
   <project name="platform/system/vold"/>
   <project name="platform/system/weaved"/>
+  <project name="platform/system/weaver"/>
   <project name="platform/system/webservd"/>
   <project name="platform/system/zygote"/>
   <project name="platform/test/app_compat/csuite"/>
@@ -1829,6 +1899,7 @@
   <project name="platform/tools/rootcanal"/>
   <project name="platform/tools/rr_prebuilt"/>
   <project name="platform/tools/security"/>
+  <project name="platform/tools/strictdeps"/>
   <project name="platform/tools/test/connectivity"/>
   <project name="platform/tools/test/desktop/mobly"/>
   <project name="platform/tools/test/graphicsbenchmark"/>
