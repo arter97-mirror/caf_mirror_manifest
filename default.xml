@@ -59,6 +59,7 @@
   <project name="device/qcom/qssi_32"/>
   <project name="device/qcom/qssi_32go"/>
   <project name="device/qcom/qssi_64"/>
+  <project name="device/qcom/qssi_64go"/>
   <project name="device/qcom/qssi_au"/>
   <project name="device/qcom/qssi_au_64"/>
   <project name="device/qcom/qssi_au_cf"/>
@@ -70,6 +71,7 @@
   <project name="device/qcom/qssi_sdg"/>
   <project name="device/qcom/qssi_tiny"/>
   <project name="device/qcom/qssi_tiny_32go"/>
+  <project name="device/qcom/qssi_tiny_64go"/>
   <project name="device/qcom/qssi_xrl"/>
   <project name="device/qcom/qssi_xrM"/>
   <project name="device/qcom/sepolicy"/>
@@ -101,6 +103,7 @@
   <project name="kernel/prebuilts/6.6/arm64"/>
   <project name="kernel/prebuilts/6.6/x86-64"/>
   <project name="kernel/prebuilts/common-modules/trusty/6.12/arm64"/>
+  <project name="kernel/prebuilts/common-modules/trusty/6.18/arm64"/>
   <project name="kernel/prebuilts/common-modules/trusty/6.6/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
@@ -1717,6 +1720,7 @@
   <project name="platform/prebuilts/module_sdk/Scheduling"/>
   <project name="platform/prebuilts/module_sdk/SdkExtensions"/>
   <project name="platform/prebuilts/module_sdk/StatsD"/>
+  <project name="platform/prebuilts/module_sdk/Telephony"/>
   <project name="platform/prebuilts/module_sdk/UprobeStats"/>
   <project name="platform/prebuilts/module_sdk/Uwb"/>
   <project name="platform/prebuilts/module_sdk/WebViewBootstrap"/>
@@ -1936,6 +1940,7 @@
   <project name="platform/vendor/opensource/mmrm-driver"/>
   <project name="platform/vendor/opensource/mmrm-driver-test"/>
   <project name="platform/vendor/opensource/mm-sys-kernel"/>
+  <project name="platform/vendor/opensource/qac-services"/>
   <project name="platform/vendor/opensource/sched"/>
   <project name="platform/vendor/opensource/synx-kernel"/>
   <project name="platform/vendor/opensource/touch-drivers"/>
@@ -1988,6 +1993,7 @@
   <project name="platform/vendor/qcom/msmnileau_tb"/>
   <project name="platform/vendor/qcom/neo"/>
   <project name="platform/vendor/qcom/opensource/agm"/>
+  <project name="platform/vendor/qcom-opensource/android-feature-config-commonsys"/>
   <project name="platform/vendor/qcom-opensource/androidui"/>
   <project name="platform/vendor/qcom/opensource/arpal-lx"/>
   <project name="platform/vendor/qcom-opensource/audio"/>
@@ -2004,6 +2010,7 @@
   <project name="platform/vendor/qcom/opensource/bt-external"/>
   <project name="platform/vendor/qcom-opensource/bt-kernel"/>
   <project name="platform/vendor/qcom/opensource/commonsys-intf/audio"/>
+  <project name="platform/vendor/qcom/opensource/commonsys/nfc"/>
   <project name="platform/vendor/qcom/opensource/commonsys/wifi"/>
   <project name="platform/vendor/qcom-opensource/core-modules"/>
   <project name="platform/vendor/qcom-opensource/core-utils"/>
