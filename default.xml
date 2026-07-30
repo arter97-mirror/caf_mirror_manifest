@@ -2163,6 +2163,7 @@
   <project name="trusty/device/x86/generic-x86_64"/>
   <project name="trusty/external/headers"/>
   <project name="trusty/external/musl"/>
+  <project name="trusty/external/qemu-meson"/>
   <project name="trusty/external/trusted-firmware-a"/>
   <project name="trusty/external/trusty"/>
   <project name="trusty/host/common"/>
@@ -2172,5 +2173,7 @@
   <project name="trusty/lk/nxp"/>
   <project name="trusty/lk/trusty"/>
   <project name="trusty/user/desktop"/>
+  <project name="virtio/qcvirtio-mesa3d"/>
+  <project name="virtio/qcvirtio-minigbm"/>
 
 </manifest>
