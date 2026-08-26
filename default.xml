@@ -1988,6 +1988,7 @@
   <project name="platform/vendor/qcom/msmnileau"/>
   <project name="platform/vendor/qcom/msmnileau_gvmq"/>
   <project name="platform/vendor/qcom/msmnileau_gvmq_ext4"/>
+  <project name="platform/vendor/qcom/msmnileau_gvmq_sgt"/>
   <project name="platform/vendor/qcom/msmnileau_gvmq_s_u"/>
   <project name="platform/vendor/qcom/msmnileau_km4"/>
   <project name="platform/vendor/qcom/msmnileau_s_u"/>
