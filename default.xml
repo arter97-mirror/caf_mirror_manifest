@@ -1926,6 +1926,7 @@
   <project name="platform/vendor/nxp/opensource/halimpl"/>
   <project name="platform/vendor/nxp/opensource/hidlimpl"/>
   <project name="platform/vendor/nxp/opensource/keymaster"/>
+  <project name="platform/vendor/nxp/opensource/libnfc_halimpl_extn"/>
   <project name="platform/vendor/nxp/opensource/libnfc_vendor_extn"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
   <project name="platform/vendor/opensource/audio-kernel"/>
@@ -1963,7 +1964,9 @@
   <project name="platform/vendor/qcom/bengal_515tiny_32go"/>
   <project name="platform/vendor/qcom/bengal_auto"/>
   <project name="platform/vendor/qcom/blair"/>
+  <project name="platform/vendor/qcom/canoe"/>
   <project name="platform/vendor/qcom/capri"/>
+  <project name="platform/vendor/qcom/chora"/>
   <project name="platform/vendor/qcom/cobalt"/>
   <project name="platform/vendor/qcom/cobalt_32"/>
   <project name="platform/vendor/qcom/crow"/>
@@ -1973,6 +1976,7 @@
   <project name="platform/vendor/qcom/gen4_gvm"/>
   <project name="platform/vendor/qcom/gen4_gvm_gy"/>
   <project name="platform/vendor/qcom/gen4_gvm_sgt"/>
+  <project name="platform/vendor/qcom/hamoa"/>
   <project name="platform/vendor/qcom/holi"/>
   <project name="platform/vendor/qcom/kalama"/>
   <project name="platform/vendor/qcom/kona"/>
@@ -1997,6 +2001,7 @@
   <project name="platform/vendor/qcom-opensource/agentic-ai-commonsys-intf"/>
   <project name="platform/vendor/qcom-opensource/agentic-ai-system"/>
   <project name="platform/vendor/qcom/opensource/agm"/>
+  <project name="platform/vendor/qcom-opensource/android-feature-config"/>
   <project name="platform/vendor/qcom-opensource/android-feature-config-commonsys"/>
   <project name="platform/vendor/qcom-opensource/androidui"/>
   <project name="platform/vendor/qcom/opensource/arpal-lx"/>
@@ -2007,6 +2012,7 @@
   <project name="platform/vendor/qcom/opensource/audio-kernel-ar"/>
   <project name="platform/vendor/qcom/opensource/audio-kernel-virtio"/>
   <project name="platform/vendor/qcom-opensource/audiolite"/>
+  <project name="platform/vendor/qcom-opensource/avf-qcom"/>
   <project name="platform/vendor/qcom-opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf"/>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext"/>
@@ -2017,6 +2023,7 @@
   <project name="platform/vendor/qcom/opensource/commonsys/nfc"/>
   <project name="platform/vendor/qcom/opensource/commonsys/wifi"/>
   <project name="platform/vendor/qcom-opensource/core-modules"/>
+  <project name="platform/vendor/qcom-opensource/coretech-tools"/>
   <project name="platform/vendor/qcom-opensource/core-utils"/>
   <project name="platform/vendor/qcom-opensource/core-utils-sys"/>
   <project name="platform/vendor/qcom-opensource/core-utils-vendor"/>
@@ -2069,6 +2076,7 @@
   <project name="platform/vendor/qcom-opensource/rcs-service"/>
   <project name="platform/vendor/qcom-opensource/recovery-ext"/>
   <project name="platform/vendor/qcom-opensource/rpc-util"/>
+  <project name="platform/vendor/qcom/opensource/securemsm-devicetree"/>
   <project name="platform/vendor/qcom/opensource/securemsm-kernel"/>
   <project name="platform/vendor/qcom-opensource/shortcut-fe"/>
   <project name="platform/vendor/qcom-opensource/soa-examples"/>
@@ -2091,6 +2099,7 @@
   <project name="platform/vendor/qcom-opensource/twowheeler/apps/SystemUI"/>
   <project name="platform/vendor/qcom-opensource/twowheeler/frameworks/opt/bike/services"/>
   <project name="platform/vendor/qcom-opensource/twowheeler/services"/>
+  <project name="platform/vendor/qcom-opensource/ufs-tools"/>
   <project name="platform/vendor/qcom-opensource/usb"/>
   <project name="platform/vendor/qcom-opensource/vibrator"/>
   <project name="platform/vendor/qcom-opensource/video-commonsys"/>
@@ -2123,6 +2132,7 @@
   <project name="platform/vendor/qcom/steppeau_s_u"/>
   <project name="platform/vendor/qcom/sun"/>
   <project name="platform/vendor/qcom/taro"/>
+  <project name="platform/vendor/qcom/taro612"/>
   <project name="platform/vendor/qcom/thorium_32"/>
   <project name="platform/vendor/qcom/thorium_64"/>
   <project name="platform/vendor/qcom/thulium"/>
